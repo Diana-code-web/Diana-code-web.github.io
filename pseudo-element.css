@@ -1,0 +1,31 @@
+h1::first-letter {
+  font-style: italic;
+}
+p::first-line {
+  color: rgb(175, 73, 112);
+}
+#fruit li::before {
+  content: "🤞";
+}
+#o::after {
+  content: "🍊";
+}
+#b::after {
+  content: "🍌";
+}
+#a::after {
+  content: "🍎";
+}
+#w::after {
+  content: "🍉";
+}
+#g::after {
+  content: "🍇";
+}
+#m::after {
+  content: 🥭;
+}
+#fruit li::marker {
+  content: "✔";
+  color: blue;a
+}
